@@ -1,0 +1,67 @@
+.nav{
+    background-color: plum;
+    color: white;
+    font-weight: bolder;
+    padding: 10px;
+    padding-top: 1rem;
+    padding-left: 25px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.nav img{
+    height: 2rem;
+    padding-top: 6px;
+   
+}
+
+.card{
+    margin-left: 4rem;
+    border-color: plum;
+    border: 4px dotted plum;
+    box-sizing: 4px;
+    margin-top: 8rem;
+    padding-top: 3rem;
+    width: 38rem;
+    box-shadow: 3px grey;
+    border-radius: 3rem;
+    height: 20rem;
+}
+.App{
+    
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    /* width: 15rem; */
+}
+
+.App input:hover{
+    box-shadow: 0 0 9px 1px rgba(82, 81, 81,0.6);
+}
+
+.App button{
+    color: white;
+   background-color: plum;
+    margin-left: 12rem;
+    border-radius: 1rem;
+    padding: 4px;
+    width: 10rem;
+}
+
+.App input{
+    /* color: white; */
+    /* background-color: plum; */
+    margin-top: 3rem;
+    margin-left: 14rem;
+}
+
+.mainPage img{
+    margin-top: 8rem;
+    height: 25rem;
+    width: 30rem;
+}
+
+.mainPage{
+    display: flex;
+    column-gap: 12rem;
+    /* align-items: center; */
+}
